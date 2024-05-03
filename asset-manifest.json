@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/francisco-quinola/static/css/main.57192172.css",
-    "main.js": "/francisco-quinola/static/js/main.653ee7d2.js",
+    "main.css": "/francisco-quinola/static/css/main.05c936b3.css",
+    "main.js": "/francisco-quinola/static/js/main.c5a92363.js",
     "static/js/453.0ffc6306.chunk.js": "/francisco-quinola/static/js/453.0ffc6306.chunk.js",
     "static/media/socmed.png": "/francisco-quinola/static/media/socmed.af628ce4f3bfa7f44509.png",
     "static/media/me.png": "/francisco-quinola/static/media/me.853660b8a6274e5f613b.png",
@@ -9,12 +9,12 @@
     "static/media/html.png": "/francisco-quinola/static/media/html.903a82d5adc2eba42704.png",
     "static/media/css.png": "/francisco-quinola/static/media/css.e21fad8927a75590d4cd.png",
     "index.html": "/francisco-quinola/index.html",
-    "main.57192172.css.map": "/francisco-quinola/static/css/main.57192172.css.map",
-    "main.653ee7d2.js.map": "/francisco-quinola/static/js/main.653ee7d2.js.map",
+    "main.05c936b3.css.map": "/francisco-quinola/static/css/main.05c936b3.css.map",
+    "main.c5a92363.js.map": "/francisco-quinola/static/js/main.c5a92363.js.map",
     "453.0ffc6306.chunk.js.map": "/francisco-quinola/static/js/453.0ffc6306.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57192172.css",
-    "static/js/main.653ee7d2.js"
+    "static/css/main.05c936b3.css",
+    "static/js/main.c5a92363.js"
   ]
 }
