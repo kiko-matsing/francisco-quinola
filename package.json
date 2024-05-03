@@ -1,8 +1,8 @@
 {
-  "homepage": "https://kiko-matsing.github.io/francisco-quinola",
   "name": "kiko",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
+  "homepage": "https://kiko-matsing.github.io/francisco-quinola/",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
