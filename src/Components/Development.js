@@ -35,7 +35,7 @@ const Development = () => {
         return (
             <li className="carousel-pagination" >
                 <div className="pagination">
-                    <FontAwesomeIcon icon={faCircle} className={`pagination page ${state === box.id ? 'active' : ''}`} />
+                    <FontAwesomeIcon icon={faCircle} className={`paginate page ${state === box.id ? 'active' : ''}`} />
                 </div>
             </li >
         )
