@@ -1,0 +1,138 @@
+#footer {
+    color: #fff;
+    background-color: #1b2433;
+    padding: 0 150px;
+    .main-container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 2px;
+
+        text-align: left;
+        .right {
+            float: right;
+        }
+        .content-title {
+            color: #fcba03;
+        }
+        .footer-description {
+            font-family: Rubik, sans-serif;
+            .faCode{ color: #1A8EFD};
+        }
+        .footer-services {
+
+        }
+        
+        .footer-description {
+            .content-desc {
+                color: #94969b;
+                font-size: 25px;
+                width: 400px;
+                padding: 5px 0;
+            }
+
+        }
+        .site-map {
+            &.content-desc {
+                font-size: 20px;
+                padding: 5px 0;
+                color: #94969b;
+            li a {
+                opacity: .4;
+                color: #94969b;
+                &:hover{ 
+                    opacity: 1;
+                    text-decoration: underline;
+                }
+            }
+            }
+        }
+
+    }
+
+    .line {
+        opacity: .2;
+        border: .1px solid;
+    }
+    .soc-meds {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        .copyright {
+            opacity: .4;
+        }
+        .soc-med {
+            display: flex;
+            margin: 10px;           
+            gap: 10px;    
+            .logo {
+
+                .sprite {
+                    margin: 0;
+                }
+                .facebook {
+                    background: url(../Assets/socmed.png) no-repeat -78px -362px;
+                    width: 22px;
+                    height: 22px;
+                }
+                .github {
+                    background: url(../Assets/socmed.png) no-repeat -319px -270px;
+                    width: 19px;
+                    height: 20px;
+                    
+                }
+                .linkedin {
+                    background: url(../Assets/socmed.png) no-repeat -128px -152px;
+                    width: 19px;
+                    height: 18px;
+                    
+                }
+                .reddit {
+                    background: url(../Assets/socmed.png) no-repeat -318px -151px;
+                    width: 20px;
+                    height: 20px;
+                    
+                }
+                .google{
+                    background: url(../Assets/socmed.png) no-repeat -176px -128px;
+                    width: 18px;
+                    height: 18px;
+                }
+
+            }
+        }
+    }
+
+
+    /* Responsive */
+    @media screen and (max-width: 900px) {
+        padding: 0 20px;
+        .main-container {
+            text-align: center;
+            display: block;
+                .footer-description{ 
+                    .content {
+                        h5 {
+                            margin: 0;
+                            padding-top: 20px;
+                        }
+                        .content-desc {
+                            width: auto;
+                    }
+                }
+                .footer-site-map .content {
+                    align-content: center;
+                }
+            }
+        }
+        .soc-meds {
+            display: block;
+            text-align: center;
+            .soc-med {
+                justify-content: center;
+                margin: 0;
+                padding: 20px 0;
+            }
+        }
+    }
+}

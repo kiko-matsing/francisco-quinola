@@ -1,0 +1,137 @@
+/* Dark Theme Css */
+
+.home-section.dark{
+    #navbar {
+        &.navbar-section{
+            background: linear-gradient(to right, #222831, #444a54);
+            .navbar-items {
+                li a {
+                    color: #fff;
+                }
+            }
+            .hamb-icon {
+                color: #fff;
+            }
+        }
+        .navbar-title-button{
+            opacity: .7;
+            background-color: #222831;
+            border: 1px solid #fff;
+            &:hover{
+                background-color: #1A8EFD;
+            }
+        }
+        .mobile-nav { 
+            .hamb-icon {
+                opacity: .7;
+                color: #fff;
+            }
+        }
+        .mobile-navbar {
+            color: #fff;
+            background: linear-gradient(to right, #222831, #444a54);
+            .mobile-navbar-links {
+                a {
+                    color: #fff;
+                }
+            }
+        }
+    }
+    #hero {
+        .hero-section {
+            background: linear-gradient(to right, #222831, #444a54);
+            .text-appointment-btn {
+                color: #fff;
+                background-color: #444a54;
+                &:hover {
+                    border-color: #fff;
+                    opacity: .8;
+                    background-color: transparent;
+                }
+            }
+
+        }
+        .text-section {
+            opacity: .7;
+            .text-headline {
+                color: #fff;
+            }
+            .text-title {
+                color: #fff;
+            }
+            .text-descritpion {
+                color: #fff;
+
+            }
+            .text-stats {
+                .text-stats-container {
+                    p { color: #fff}
+                }
+            }
+        }
+        
+    }
+    #automation {
+        background-color: #444a54;
+        .automation-title {
+            opacity: .8;
+            color: #fff;
+        }
+        .automation-tools {
+            .tool-framework {
+                .tool-button {
+                    background-color: #222831;
+                    &:hover {
+                        background: linear-gradient(to top, #222831, #444a54);
+
+                    }
+                }
+            }
+        }
+        .tool-description {
+            opacity: .7;
+            color:  #fff;
+        }
+    }
+    #development-container {
+        background: linear-gradient(to right, #222831, #444a54);
+        .development-title {
+            opacity: .8;
+            color: #fff;
+        }
+        .main-carousel {
+            opacity: .6;
+            .card-body {
+                .description {
+                    color: #fff;
+                }
+            }
+            .card-title {
+                color: #fff;
+            }
+        }
+        .car-button {
+            background-color: #fff;
+            color: #222831;
+            border: none;
+            z-index: 1;
+        }
+        .main-pagination {
+            .pagination { 
+                color: #fff;
+            }
+        }
+    }
+
+    #footer{
+        .main-container {
+            .footer-description{
+                .content {
+                    .faCode {
+                        color:#fff;
+                    }
+                }
+            }
+        }
+    }
+}
