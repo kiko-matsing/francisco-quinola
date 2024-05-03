@@ -7,8 +7,8 @@ import {
     faUserSecret,
 } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-import "../Styles/Navbar.css";
-import "../Styles/theme.css";
+// import "../Styles/Navbar.css";
+// import "../Styles/theme.css";
 
 
 const Navbar = (props) => {

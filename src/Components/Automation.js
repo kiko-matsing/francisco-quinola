@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../Styles/Automation.css"
+// import "../Styles/Automation.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRobot, faScrewdriverWrench } from "@fortawesome/free-solid-svg-icons";
 import AutomationTools from './Techs/AutomationTools'

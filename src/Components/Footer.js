@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SocMedFooter from "./SocMedFooter";
-import '../Styles/Footer.css'
+// import '../Styles/Footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode, faLightbulb } from '@fortawesome/free-solid-svg-icons'
 
