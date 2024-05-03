@@ -5,7 +5,6 @@ import Hero from "../Components/Hero";
 import Footer from "../Components/Footer";
 import Development from "../Components/Development";
 
-// import '../Styles/Home.css';
 
 const Home = () => {
 

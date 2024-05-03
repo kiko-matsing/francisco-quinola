@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import '../Styles/Development.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft, faChevronRight, faCircle, faCode, faHtml5, faCss3, faSquareJs, faReact } from "@fortawesome/free-solid-svg-icons";
 import { boxes } from '../data/development'

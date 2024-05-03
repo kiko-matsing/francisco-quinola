@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import "../Styles/Hero.css";
 import Me from "../Assets/me.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode } from "@fortawesome/free-solid-svg-icons";

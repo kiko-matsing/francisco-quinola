@@ -1,9 +1,9 @@
-@import url(./Automation.css);
-@import url(./Development.css);
-@import url(./Footer.css);
-@import url(./Hero.css);
-@import url(./Navbar.css);
-@import url(./theme.css);
+@import url("./Automation.css");
+@import url("./Development.css");
+@import url("./Footer.css");
+@import url("./Hero.css");
+@import url("./Navbar.css");
+@import url("./theme.css");
 
 
 .home-section.dark{
